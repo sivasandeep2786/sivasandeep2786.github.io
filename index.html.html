@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bharath Thippireddy | Global Tech Educator &amp; AI Evangelist</title>
+<meta content="Top Udemy instructor with 850K+ students. Courses in Java, Python, GenAI, Spring Boot, GitHub Copilot, LangChain. Tech speaker and consultant." name="description"/>
+<meta content="Spring AI course, LangChain Python Udemy, Copilot for Java Developers, GenAI instructor, Java Python courses" name="keywords"/>
+<!-- Open Graph tags -->
+<meta content="Bharath Thippireddy | Global Tech Educator &amp; AI Evangelist" property="og:title"/>
+<meta content="Top Udemy instructor with 850K+ students worldwide. Expert in Java, Python, GenAI, Spring Boot, and GitHub Copilot." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;h=600" property="og:image"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+<div class="nav-container">
+<div class="nav-brand">
+<a href="#home">Bharath Thippireddy</a>
+<a href="https://www.linkedin.com/in/thippireddybharath/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/bharaththippireddy" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram">
+                </a>
+</div>
+<div class="nav-menu" id="nav-menu">
+<a class="nav-link" href="#home">Home</a>
+<a class="nav-link" href="#courses">Courses</a>
+<a class="nav-link" href="#media">Media</a>
+<a class="nav-link" href="#contact">Contact</a>
+<button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+</div>
+<div class="hamburger" onclick="toggleMenu()">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</nav>
+<!-- Home Section -->
+<section class="hero" id="home">
+<div class="container">
+<div class="hero-content">
+<div class="hero-text">
+<h1>Bharath <span class="highlight">Thippireddy</span></h1>
+<p class="hero-subtitle">Global Tech Educator | AI Evangelist | 850K+ Students | Actor &amp; Entrepreneur</p>
+<div class="hero-buttons">
+<a class="btn btn-primary" href="#courses">View Courses</a>
+<a class="btn btn-outline" href="#contact">Invite Me to Speak</a>
+<a class="btn btn-secondary" href="https://www.youtube.com/watch?v=dBcQ1qgwkJc&amp;list=PLSg8jHkYTg9F7NmbDRo4d4l9xm076FXtg" target="_blank">Watch My Podcast</a>
+</div>
+<div class="hero-stats">
+<div class="stat">
+<span class="stat-number">850K+</span>
+<span class="stat-label">Students</span>
+</div>
+<div class="stat">
+<span class="stat-number">210</span>
+<span class="stat-label">Countries</span>
+</div>
+<div class="stat">
+<span class="stat-number">4.7</span>
+<span class="stat-label">Rating</span>
+</div>
+</div>
+</div>
+<div class="hero-image">
+<img alt="Bharath Thippireddy - Professional Photo" height="50" src="bharath.jpg" width="100"/>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="about">
+<div class="container">
+<div class="section-header">
+<h2>About Bharath</h2>
+<div class="section-divider"></div>
+</div>
+<p class="about-text">
+Bharath Thippireddy — an entrepreneur, actor, public speaker, and teacher. Over 850,000 students from 210 countries have taken my courses on Udemy, and they’re now available in 72 languages.
+
+I’ve had the privilege of mentoring students in classrooms and corporate settings across both India and the U.S. A few years ago, driven by my deep love for India, I started One Village One India — an initiative rooted in national service.
+
+Apart from teaching, I’m also a filmmaker and actor. I recently played the lead in Sharma & Ambani, a film that continues to get a lot of love on various OTT platforms.
+
+And beyond all of that, I’m a spiritual seeker and a certified yoga teacher, recognized by the Government of India. This journey — across tech, teaching, film, and inner exploration — is what I live for.
+            </p>
+<div class="features">
+<div class="feature">
+<div class="feature-icon expert">✓</div>
+<h3>Expert Educator</h3>
+<p>Top-rated instructor with proven track record in Java, Python, and AI technologies</p>
+</div>
+<div class="feature">
+<div class="feature-icon speaker">📈</div>
+<h3>Industry Speaker</h3>
+<p>Regular speaker at tech conferences and corporate workshops worldwide</p>
+</div>
+<div class="feature">
+<div class="feature-icon consultant">💻</div>
+<h3>Tech Consultant</h3>
+<p>Advising startups and enterprises on AI implementation and development practices</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Courses Section -->
+<section class="courses" id="courses">
+<div class="container">
+<div class="section-header">
+<h2>My Courses</h2>
+<p>Comprehensive technology education for 850K+ students worldwide</p>
+<div class="section-divider"></div>
+</div>
+<div class="course-filters">
+<button class="filter-btn active" onclick="filterCourses('all')">All Courses</button>
+<button class="filter-btn" onclick="filterCourses('ai')">GenAI</button>
+<button class="filter-btn" onclick="filterCourses('java')">Java & Spring Boot</button>
+<button class="filter-btn" onclick="filterCourses('python')">Python</button>
+<button class="filter-btn" onclick="filterCourses('devops')">Devops Tools</button>
+<button class="filter-btn" onclick="filterCourses('javascript')">JavaScript</button>
+<button class="filter-btn" onclick="filterCourses('xmlxsd')">XML and XSD</button>
+<button class="filter-btn" onclick="filterCourses('yoga')">Yoga</button>
+</div>
+<div class="courses-grid">
+<div class="course-card" data-category="ai">
+<img alt="LangGraph for beginners" course"="" src="images/lang_graph.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>LangGraph for beginners : Agentic Workflows in simple steps</h3>
+<p>A Step-by-Step Guide to Master LangChain </p>
+<div class="course-footer">
+<span class="price">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+</span>
+<a class="btn btn-primary" href="https://www.udemy.com/course/langgraph-for-beginners/?couponCode=A8C6A069134669FC37F5" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 3 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="Spring AI for beginners : Build GenAI LLM Apps in Easy Steps" course"="" src="images/spring_ai_beginners.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Spring AI for beginners : Build GenAI LLM Apps in Easy Steps</h3>
+<p>A Step-by-Step Guide to Master Spring AI</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-ai-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=121DF49F901D58477637" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="Amazon Q Developer" course"="" src="images/amazon_q_developer.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Amazon Q Developer for Java &amp; Spring Boot Developers</h3>
+<p>Unlock the Power of AI Pair Programming :  Maximizing Productivity in Java and Spring Boot with AWS Q Developer</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/amazon-q-developer-for-java-spring-boot-developers/?couponCode=9A538DBCFE899C454C3D" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+</div>
+<div class="courses-grid">
+<div class="course-card" data-category="ai">
+<img alt="Langchain for beginners : Build GenAI LLM Apps in Easy Steps" course"="" src="images/lang_chain.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Langchain for beginners : Build GenAI LLM Apps in Easy Steps</h3>
+<p>A Step-by-Step Guide to Master LangChain </p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$11.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/langchain-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=241D942D47C994F06235" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="AI with GitHub Copilot for JavaScript and React Developers" course"="" src="images/ai_copilot_javascript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>AI with GitHub Copilot for JavaScript and React Developers</h3>
+<p>Unlock the Power of AI Pair Programming :  Maximizing Productivity in JavaScript,Node and React with GitHub Copilot</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-javascript-and-react-developers/?couponCode=A9711B3F34FC3B585F50" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • all levels</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="AI with GitHub Copilot for Java &amp; Spring Boot Developers" course"="" src="images/ai_copilot_javaspringboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.7</span>
+</div>
+</div>
+<h3>AI with GitHub Copilot for Java &amp; Spring Boot Developers</h3>
+<p>Unlock the Power of AI Pair Programming :  Maximizing Productivity in Java and Spring Boot with GitHub Copilot</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/?couponCode=86FBFB3C60CA02438CCB" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+</div>
+<div class="courses-grid">
+<div class="course-card" data-category="ai">
+<img alt="AI with GitHub Copilot for Python &amp; Django REST Developers" course"="" src="images/ai_copilot_python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>AI with GitHub Copilot for Python &amp; Django REST Developers</h3>
+<p>Unlock the Power of AI Pair Programming :  Maximizing Productivity in Python and Django REST with GitHub Copilot</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-python-django-rest-developers/?couponCode=14950E49E22FCCB2E61C" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 2 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="Generative AI  for Java Developers with Azure OpenAI ChatGPT" course"="" src="images/genai_java_azureopenai.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.7</span>
+</div>
+</div>
+<h3>Generative AI  for Java Developers with Azure OpenAI ChatGPT</h3>
+<p>Unlock the Future of AI using the powerful OpenAI models in the secured and reliable Azure Cloud</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-for-java-developers-with-azure-openai/?couponCode=4996DF020108B6218F1C" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • all levels</div>
+</div>
+</div>
+<div class="course-card" data-category="ai">
+<img alt="Generative AI using Azure OpenAI ChatGPT for Beginners" course"="" src="images/genai_azure_openai_chatgpt.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Generative AI using Azure OpenAI ChatGPT for Beginners</h3>
+<p>Unlock the Future of AI using the powerful OpenAI models in the secured and reliable Azure Cloud</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-using-azure-openai-service-for-beginners/?couponCode=66F24D25598D6C0F27EB" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • beginners</div>
+</div>
+</div>
+</div>
+<div class="courses-grid">
+<div class="course-card" data-category="ai">
+<img alt="Generative AI using OpenAI API for Beginners" course"="" src="images/genai_openai_beginners.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Generative AI using OpenAI API for Beginners</h3>
+<p>Unlock the Power of OpenAI: A Python Guide for OpenAI API Novices</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/open-ai-api-for-beginners-using-python/?couponCode=B8EE6309740D5C680FAD" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 3 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Core Java Made Easy (Covers the latest Java 18)" course"="" src="images/corejava.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Core Java Made Easy (Covers the latest Java 18)</h3>
+<p>Master java in quick and simple steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$29.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/corejavamadeeasy/?couponCode=9936B1599CA26858A21B" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 28 hours • all levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="JDBC Servlets and JSP - Java Web Development Fundamentals" course"="" src="images/jdbc.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>JDBC Servlets and JSP - Java Web Development Fundamentals</h3>
+<p>Create Java Web Applications from scratch in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/jdbcservletsandjsp/?couponCode=B294318081FE3CCED56E" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 9 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Spring Framework In Easy Steps" course"="" src="images/spring_framework.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Spring Framework In Easy Steps</h3>
+<p>Create an End to End Java EE Web Application using Spring</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$29.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/springframeworkineasysteps/?couponCode=12211C649F898E8DEF85" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 13 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Spring Boot Fundamentals" course"="" src="images/springboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Spring Boot Fundamentals</h3>
+<p>Learn Spring boot in simple steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/springbootfundamentals/?couponCode=8C55084CE1AE261B243F" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 11 hours • all levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Spring Data JPA Using Hibernate" course"="" src="images/springdatajpa_hibernate.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Spring Data JPA Using Hibernate</h3>
+<p>Learn and use the most popular ORM Frameworks in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-data-jpa-using-hibernate/?couponCode=009D141192F2CC71109F" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 13 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Project Development Using Spring Boot" course"="" src="images/projectdevelopment_springboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★</span>
+<span>4.0</span>
+</div>
+</div>
+<h3>Project Development Using Spring Boot</h3>
+<p>Master everything required to create a Enterprise Java Application from scratch</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/end-to-end-java-project-development-using-spring-boot/?couponCode=363B35FFDB0E3C3E2DD4" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 12 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Spring Security Fundamentals (OAuth ,JWT,CSRF and more)" course"="" src="images/springsecurity.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Spring Security Fundamentals (OAuth ,JWT,CSRF and more)</h3>
+<p>Secure you REST APIs and Web Applications in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-security-fundamentals/?couponCode=5BDD3524F53AA7323E49" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Web Services" course"="" src="images/javawebservices.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Java Web Services</h3>
+<p>Learn how to design,create , consume and secure SOAP   and REST web services  from scratch in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$13.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-web-services/?couponCode=39DD4C5A8052647406B3" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 16 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Web Services Part 2 - SOAP and REST Security" course"="" src="images/javawebservices2.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Java Web Services Part 2 - SOAP and REST Security</h3>
+<p>Master advanced web services concepts and implement them in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/javawebservicespart2/?couponCode=4972DE31F7ACA5BEA89E" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="JUnit and Mockito Crash Course" course"="" src="images/junit.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>JUnit and Mockito Crash Course</h3>
+<p>Learn how to use JUnit and Mockito and Unit Test in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/junitandmockitocrashcourse/?couponCode=24E80EE5377E0722F4BE" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Spring Cloud Fundamentals" course"="" src="images/springcloud.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Spring Cloud Fundamentals</h3>
+<p>Learn Spring Cloud components and use them for your micro services in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-cloud-fundamentals/?couponCode=EC410921816B5E37C968" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Design Patterns" course"="" src="images/javadesignpatterns.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Java Design Patterns</h3>
+<p>Master the popular Core and Java EE Design Patterns in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$14.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-design-patterns/?couponCode=93497F599B0159738B34" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Logical Programs and Data Structures For Beginners" course"="" src="images/javalogicalprograms.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Java Logical Programs and Data Structures For Beginners</h3>
+<p>Improve logic and over come the fear of programming</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-logical-programs/?couponCode=9FF76A4FA91175D3A0D2" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 7 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Interview Help" course"="" src="images/javainterviewhelp.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Java Interview Help</h3>
+<p>Quickly review java, spring boot, micro services, rest, devops and cloud for java interviews</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-interview-help/?couponCode=7BA83E7BCBE6F769C55E" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Serverless using AWS Lambda for Java Developers" course"="" src="images/serverless_java.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Serverless using AWS Lambda for Java Developers</h3>
+<p>Create Build and Deploy Serverless Applications with AWS Lambdas</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-programming-using-aws-lambda-for-java-developers/?couponCode=EBBE25BBAC9B1378F233" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 7 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Kafka fundamentals for java developers" course"="" src="images/kafka.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Kafka fundamentals for java developers</h3>
+<p>Learn the key concepts and work hands to master Kafka in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/kafka-fundamentals-for-java-developers/?couponCode=BC02B4E160B883803395" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="devops">
+<img alt="Helm Kubernetes Packaging Manager for Developers and DevOps" course"="" src="images/helm.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.4</span>
+</div>
+</div>
+<h3>Helm Kubernetes Packaging Manager for Developers and DevOps</h3>
+<p>Package Install and Upgrade Kubernetes Applications in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/helm-kubernetes-packaging-manager-for-developers-and-devops/?couponCode=98CFC72535551E5C0B26" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="devops">
+<img alt="Devops Tools and AWS for Java Microservice Developers" course"="" src="images/devopstools.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Devops Tools and AWS for Java Microservice Developers</h3>
+<p>Master Docker , Kubernetes, Maven, Jenkins ,GIT , AWS EC2 ,Elastic Beanstalk,ELB,Auto Scaling and more in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/devops-tools-and-aws-for-java-microservice-developers/?couponCode=E4DB495F348E49A63881" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 20 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="devops">
+<img alt="Maven Crash Course" course"="" src="images/maven.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Maven Crash Course</h3>
+<p>Create a multi module maven java web applicaiton project in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/mavencrashcourse/?couponCode=49376EC429FEC70ABD45" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="devops">
+<img alt="Gradle for java developers" course"="" src="images/gradle.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.2</span>
+</div>
+</div>
+<h3>Gradle for java developers</h3>
+<p>Master the fundamentals of gradle in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/gradle-for-java-developers/?couponCode=50410E378DB4B3556A7F" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="NodeJS made easy for MEAN or MERN Stack" course"="" src="images/nodejs.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.7</span>
+</div>
+</div>
+<h3>NodeJS made easy for MEAN or MERN Stack</h3>
+<p>Master Node fundamentals for MEARN stack development</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/nodejs-in-easy-steps/?couponCode=3AC0108B79B756D740F5" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 7 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="React in easy steps with Node and Java Backend" course"="" src="images/reactjs.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>React in easy steps with Node and Java Backend</h3>
+<p>Master React and Create a Single Page App from scratch</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/reactjs-in-easy-steps/?couponCode=E5FE81D061AFAF4F4337" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 9 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="Angular Crash Course with Node and Java Backend" course"="" src="images/angular.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Angular Crash Course with Node and Java Backend</h3>
+<p>Master Angular Fundamentals and create a project in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/angular-6-crash-course/?couponCode=81C8F7368E2964E3A424" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 9 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="TYPESCRIPT FOR BEGINNERS" course"="" src="images/typescript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>TYPESCRIPT FOR BEGINNERS</h3>
+<p>Master and use TypeScript Syntax in easy steps for Angular Developers</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/typescript-for-beginners/?couponCode=0BD0D328C994E384964D" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="JavaScript Fundamentals6" course"="" src="images/javascript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.4</span>
+</div>
+</div>
+<h3>JavaScript Fundamentals6</h3>
+<p>Learn JavaScript hands on in quick and easy steps</p>
+<div class="course-footer">
+<span style="color: red; font-weight: bold;">FREE</span>
+<a class="btn btn-primary" href="https://www.udemy.com/course/javascriptfundamentals/?referralCode=B1B5744BAAC78979240D" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="javascript">
+<img alt="Advanced and Object Oriented JavaScript and ES6" course"="" src="images/advancedoojscript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Advanced and Object Oriented JavaScript and ES6</h3>
+<p>Master the internals of JavaScript and use it better</p>
+<div class="course-footer">
+<span style="color: red; font-weight: bold;">FREE</span>
+<a class="btn btn-primary" href="https://www.udemy.com/course/advanced-and-object-oriented-javascript/?referralCode=69059724CF1EA569C1AA" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="xmlxsd">
+<img alt="XML and XML Schema Definition in Easy Steps" course"="" src="images/xml.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>XML and XML Schema Definition in Easy Steps</h3>
+<p>Learn,Design and Practice XML and XML Schema creation from scratch in simple steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/xml-and-xml-schema-definition-in-easy-steps/?couponCode=3376248BDAFECCBA2DB2" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="xmlxsd">
+<img alt="XSLT XPATH and XQuery Fundamentals" course"="" src="images/xslt.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>XSLT XPATH and XQuery Fundamentals</h3>
+<p>Learn and use XSL and XPATH in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/xslt-xpath-and-xquery-fundamentals/?couponCode=1530AA50D0E695D47300" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 2 hours • All levels</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Python for beginners" course"="" src="images/python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Python for beginners</h3>
+<p>Master the fundamentals of Python while working on various usecases in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$12.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/python-core-and-advanced/?couponCode=7AF129215EA9E3861126" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 16 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Python Logical Programs and Data Structures for beginners" course"="" src="images/pythonlogical.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.3</span>
+</div>
+</div>
+<h3>Python Logical Programs and Data Structures for beginners</h3>
+<p>Improve logic and over come the fear of programming</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/python-logical-programs-and-data-structures-for-beginners/?couponCode=473E56109A4BE50F4366" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Django for Python Developers" course"="" src="images/djangopytho.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Django for Python Developers</h3>
+<p>Master Django and Create Python Web Applications in Simple Steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/django-for-python-developers/?couponCode=C511079A9ADE7A4374CC" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Django Rest Framework" course"="" src="images/djangorest.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Django Rest Framework</h3>
+<p>Create REST APIs using Python and Django in simple steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/djangorestframework/?couponCode=DFCB2EBE8EE16A84394C" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 6 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Serverless using AWS Lambda for Python Developers" course"="" src="images/serverless_python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.7</span>
+</div>
+</div>
+<h3>Serverless using AWS Lambda for Python Developers</h3>
+<p>Create Build and Deploy Serverless Applications with AWS Lambdas</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$22.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/?couponCode=F95F4FC493B71371C121" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="python">
+<img alt="Docker for Python Django Developers" course"="" src="images/dockerpython.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.5</span>
+</div>
+</div>
+<h3>Docker for Python Django Developers</h3>
+<p>Master the fundamentals of Docker and Containerize your Django Applications in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/docker-for-python-django-developers/?couponCode=8C2EB175B1E3A6986B0D" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 4 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="REST APIs using Spring Data REST" course"="" src="images/rest.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>REST APIs using Spring Data REST</h3>
+<p>Build an end to end REST API  Project in easy steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$24.99</span>
+<span style="color: red; font-weight: bold;">$10.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/microservices-rest-apis-using-spring-data-rest/?couponCode=A054A7A9208290B0484B" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="java">
+<img alt="Java Message Service - JMS Fundamentals" course"="" src="images/jms.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.6</span>
+</div>
+</div>
+<h3>Java Message Service - JMS Fundamentals</h3>
+<p>Master the fundamentals of Java Messaging in Simple Steps</p>
+<div class="course-footer">
+<span style="text-decoration: line-through; color: blue;">$19.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-message-service-jms-fundamentals/?couponCode=79A163FE0E35555AE444" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 5 hours • beginners</div>
+</div>
+</div>
+<div class="course-card" data-category="yoga">
+<img alt="Yoga and Meditation For Beginners" course"="" src="images/yoga.jpg" style="width:400px; height:200px; object-fit:crop;"/>
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>4.9</span>
+</div>
+</div>
+<h3>Yoga and Meditation For Beginners</h3>
+<p>Learn and Practice Yoga for a great physical, mental and spiritual life in simple steps</p>
+<div class="course-footer">
+<span style="color: red; font-weight: bold;">FREE</span>
+<a class="btn btn-primary" href="https://www.udemy.com/course/yoga-for-beginners-mind-body-spirit/?referralCode=F93982089B8CE579847D" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 1 hours • beginners</div>
+</div>
+</div>
+</div>
+<div class="courses-grid">
+<div class="course-stats">
+<div class="stat">
+<div class="stat-number">850K+</div>
+<div class="stat-label">Total Students</div>
+</div>
+<div class="stat">
+<div class="stat-number">4.7</div>
+<div class="stat-label">Average Rating</div>
+</div>
+<div class="stat">
+<div class="stat-number">45+</div>
+<div class="stat-label">Course Offerings</div>
+</div>
+<div class="stat">
+<div class="stat-number">210</div>
+<div class="stat-label">Countries Reached</div>
+</div>
+</div>
+</div>
+<div>
+<!-- Media Section -->
+<section class="media" id="media">
+<div class="container">
+<div class="section-header">
+<h2>Media</h2>
+</div>
+<!-- College & Corporate Presentations -->
+<div class="presentations">
+<div class="section-header">
+<h2>College &amp; Corporate Presentations</h2>
+<p>Highlights from my sessions at top colleges and companies</p>
+<hr class="section-divider"/>
+</div>
+<div class="presentation-grid">
+<div class="presentation-item">
+<img alt="Presentation at GIBS College" src="images/gibs.jpg">
+<p>Engaging with GIBS Students: Exploring AI for Work and Human Excellence in Life</p>
+</img></div>
+<div class="presentation-item">
+<img alt="Udemy for Business Event Pune" src="images/udemy.jpg">
+<p>Talk on AI Revolution for Industry Leaders at Udemy for Business Event, Pune</p>
+</img></div>
+<div class="presentation-item">
+<img alt="TDRA UAE GenAI Session" src="images/dubai.jpg">
+<p>Empowering TDRA UAE with Practical GenAI Insights through Udemy &amp; DGov Academy</p>
+</img></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+<div class="container">
+<div class="section-header">
+<h2>Get In Touch</h2>
+<p>Let's connect and explore opportunities to collaborate</p>
+<div class="section-divider"></div>
+</div>
+<div class="contact-content">
+<div class="contact-form-section">
+
+<div class="contact-info-section">
+<div class="contact-info">
+<h3>Contact Information</h3>
+<div class="contact-item">
+<div class="contact-icon email">✉</div>
+<div>
+<div class="contact-title">Email</div>
+<div class="contact-detail">bharath@t.com</div>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon time">🕒</div>
+<div>
+<div class="contact-title">Response Time</div>
+<div class="contact-detail">Within 24 hours</div>
+</div>
+</div>
+</div>
+<div class="newsletter">
+<h3>Stay Updated</h3>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNr4bwiRwCCeotYWTYPz-LFh13C3963cq6hBP2KksLzD_tQw/viewform?embedded=true" width="640" height="418" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-main">
+<h3>Bharath Thippireddy</h3>
+<p>Empowering 800K+ students worldwide with cutting-edge technology education.</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2024 Bharath Thippireddy. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>
+</div></div></section></body>
+</html>
