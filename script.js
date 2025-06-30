@@ -40,23 +40,33 @@ function toggleMenu() {
 function filterCourses(category) {
     const courseCards = document.querySelectorAll('.course-card');
     const filterBtns = document.querySelectorAll('.filter-btn');
-    
+    const courseGrids = document.querySelectorAll('.courses-grid');
+
     // Update active filter button
     filterBtns.forEach(btn => btn.classList.remove('active'));
     event.target.classList.add('active');
-    
-    // Filter courses
+
+    // First, show/hide individual course cards
     courseCards.forEach(card => {
         const cardCategories = card.getAttribute('data-category');
-        
+
         if (category === 'all' || cardCategories.includes(category)) {
             card.style.display = 'block';
-            card.style.animation = 'fadeInUp 0.5s ease';
+            card.style.animation = 'none';
+            void card.offsetWidth;
+            card.style.animation = 'fadeInUp 0.5s ease forwards';
         } else {
             card.style.display = 'none';
         }
     });
+
+    // Then, hide entire course grid sections that have no visible cards
+    courseGrids.forEach(grid => {
+        const visibleCards = grid.querySelectorAll('.course-card:not([style*="display: none"])');
+        grid.style.display = visibleCards.length > 0 ? 'grid' : 'none';
+    });
 }
+
 
 // Smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function() {
