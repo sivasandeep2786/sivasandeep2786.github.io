@@ -39,7 +39,7 @@
 <a class="nav-link" href="#contact">Contact</a>
 <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
 </div>
-<div class="hamburger" onclick="toggleMenu()">
+<div class="hamburger" onclick="toggleMenu">
 <span></span>
 <span></span>
 <span></span>
@@ -58,7 +58,7 @@
 <a class="btn btn-outline" href="#contact">Invite Me to Speak</a>
 <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=dBcQ1qgwkJc&amp;list=PLSg8jHkYTg9F7NmbDRo4d4l9xm076FXtg" target="_blank">Watch My Podcast</a>
 <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=WZSW0JdXtq4" target="_blank">Watch My Movie</a>
-<a class="btn btn-secondary" href="https://www.youtube.com/playlist?list=PLSg8jHkYTg9GsBYvDGXOrQL_vIbZARqIy" target="_blank">Yoga Playlist</a>
+<a class="btn btn-secondary" href="https://www.youtube.com/playlist?list=PLSg8jHkYTg9GsBYvDGXOrQL_vIbZARqIy" target="_blank">Yoga Playlist</a>
 </div>
 <div class="hero-stats">
 <div class="stat">
@@ -93,7 +93,7 @@ Bharath Thippireddy is a technologist, entrepreneur, educator, actor, and social
 As a top Udemy instructor with over 850,000 students across 209 countries, with his courses now available in 72 languages, he simplifies AI, Generative AI, and software development
 for global learners. Through Neyah Digital Solutions, he builds AI-powered products for healthcare, education, and governance.
 He also leads <a href="http://www.onevillageoneindia.org/" target="_blank">One Village One India</a>, a non-profit focused on rural development and youth empowerment. An actor and storyteller 
-at heart, Bharath believes every dream is possible with the right mindset and meaningful action.
+at heart, Bharath believes every dream is possible with the right mindset and meaningful action.
 </p>
 <div class="features">
 <div class="feature">
@@ -132,7 +132,35 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <button class="filter-btn" onclick="filterCourses('xmlxsd')">XML and XSD</button>
 <button class="filter-btn" onclick="filterCourses('yoga')">Yoga</button>
 </div>
+
+<!-- SINGLE GRID FOR ALL COURSE CARDS -->
 <div class="courses-grid">
+
+<!-- 🔹 NEW DUPLICATE HANDS-ON RAG COURSE (ADDED ABOVE ORIGINAL) -->
+<div class="course-card" data-category="ai">
+<img alt="Agentic AI with n8n" src="images/Agentic AI with n8n.jpg" style="width:400px; height:200px; object-fit:crop;">
+<div class="course-content">
+<div class="course-header">
+<span class="badge bestseller">BESTSELLER</span>
+<div class="rating">
+<span class="stars">★★★★★</span>
+<span>5</span>
+</div>
+</div>
+<h3>Agentic AI for Beginners: Build No-Code AI Agents with n8n</h3>
+<p>Create beginner-friendly AI agents with n8n while mastering RAG, MCP, Human In the Loop,Evals and Guardrails</p>
+<div class="course-footer">
+<span class="price">
+<span style="text-decoration: line-through; color: blue;">$29.99</span>
+<span style="color: red; font-weight: bold;">$9.99</span>
+</span>
+<a class="btn btn-primary" href="https://www.udemy.com/course/agentic-ai-for-beginners-build-no-code-ai-agents-with-n8n/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
+</div>
+<div class="course-meta"> 2 hours • All levels </div>
+</div>
+</img></div>
+<!-- 🔹 END OF NEW CARD -->
+
 <div class="course-card" data-category="ai">
 <img alt="RAG Retreival Augumented Generation" src="images/rag_project_langchain.jpg" style="width:400px; height:200px; object-fit:crop;">
 <div class="course-content">
@@ -150,11 +178,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <span style="text-decoration: line-through; color: blue;">$29.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
 </span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/hands-on-rag-with-langchain-build-real-world-projects/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/hands-on-rag-with-langchain-build-real-world-projects/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 2 hours • All levels </div>
 </div>
 </img></div>
+
 <div class="course-card" data-category="ai">
 <img alt="LangGraph for beginners" src="images/lang_graph.jpg" style="width:400px; height:200px; object-fit:crop;">
 <div class="course-content">
@@ -170,11 +199,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/langgraph-for-beginners/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/langgraph-for-beginners/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 3 hours • beginners</div>
 </div>
 </img></div>
+
 <div class="course-card" data-category="ai">
 <img alt="Spring AI for beginners : Build GenAI LLM Apps in Easy Steps" src="images/spring_ai_beginners.jpg" style="width:400px; height:200px; object-fit:crop;">
 <div class="course-content">
@@ -190,13 +220,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/spring-ai-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-ai-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • beginners</div>
 </div>
 </div>
-</div>
-<div class="courses-grid">
+
 <div class="course-card" data-category="ai">
 <img alt="Amazon Q Developer" src="images/amazon_q_developer.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -212,11 +241,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/amazon-q-developer-for-java-spring-boot-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/amazon-q-developer-for-java-spring-boot-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="ai">
 <img alt="Langchain for beginners : Build GenAI LLM Apps in Easy Steps" src="images/lang_chain.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -232,11 +262,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$11.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/langchain-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/langchain-for-beginners-build-genai-llm-apps-in-easy-steps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="ai">
 <img alt="AI with GitHub Copilot for JavaScript and React Developers" src="images/ai_copilot_javascript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -252,13 +283,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-javascript-and-react-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-javascript-and-react-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • all levels</div>
 </div>
 </div>
-</div>
-<div class="courses-grid">
+
 <div class="course-card" data-category="ai">
 <img alt="AI with GitHub Copilot for Java &amp; Spring Boot Developers" src="images/ai_copilot_javaspringboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -274,11 +304,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-java-spring-boot-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="ai">
 <img alt="AI with GitHub Copilot for Python &amp; Django REST Developers" src="images/ai_copilot_python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -294,11 +325,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-python-django-rest-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/mastering-github-copilot-for-python-django-rest-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 2 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="ai">
 <img alt="Generative AI  for Java Developers with Azure OpenAI ChatGPT" src="images/genai_java_azureopenai.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -314,13 +346,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-for-java-developers-with-azure-openai/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-for-java-developers-with-azure-openai/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • all levels</div>
 </div>
 </div>
-</div>
-<div class="courses-grid">
+
 <div class="course-card" data-category="ai">
 <img alt="Generative AI using Azure OpenAI ChatGPT for Beginners" src="images/genai_azure_openai_chatgpt.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -336,11 +367,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-using-azure-openai-service-for-beginners/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/generative-ai-using-azure-openai-service-for-beginners/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="ai">
 <img alt="Generative AI using OpenAI API for Beginners" src="images/genai_openai_beginners.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -356,11 +388,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/open-ai-api-for-beginners-using-python/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/open-ai-api-for-beginners-using-python/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 3 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Core Java Made Easy (Covers the latest Java 18)" src="images/corejava.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -376,11 +409,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$29.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/corejavamadeeasy/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/corejavamadeeasy/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 28 hours • all levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="JDBC Servlets and JSP - Java Web Development Fundamentals" src="images/jdbc.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -396,11 +430,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/jdbcservletsandjsp/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/jdbcservletsandjsp/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 9 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Spring Framework In Easy Steps" src="images/spring_framework.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -416,11 +451,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$29.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/springframeworkineasysteps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/springframeworkineasysteps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 13 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Spring Boot Fundamentals" src="images/springboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -436,11 +472,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/springbootfundamentals/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/springbootfundamentals/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 11 hours • all levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Spring Data JPA Using Hibernate" src="images/springdatajpa_hibernate.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -456,11 +493,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/spring-data-jpa-using-hibernate/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-data-jpa-using-hibernate/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 13 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Project Development Using Spring Boot" src="images/projectdevelopment_springboot.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -476,11 +514,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/end-to-end-java-project-development-using-spring-boot/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/end-to-end-java-project-development-using-spring-boot/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 12 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Spring Security Fundamentals (OAuth ,JWT,CSRF and more)" src="images/springsecurity.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -496,11 +535,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/spring-security-fundamentals/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-security-fundamentals/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Web Services" src="images/javawebservices.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -516,11 +556,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$13.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/java-web-services/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-web-services/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 16 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Web Services Part 2 - SOAP and REST Security" src="images/javawebservices2.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -536,11 +577,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/javawebservicespart2/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/javawebservicespart2/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="JUnit and Mockito Crash Course" src="images/junit.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -556,11 +598,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/junitandmockitocrashcourse/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/junitandmockitocrashcourse/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Spring Cloud Fundamentals" src="images/springcloud.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -576,11 +619,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/spring-cloud-fundamentals/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/spring-cloud-fundamentals/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Design Patterns" src="images/javadesignpatterns.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -596,11 +640,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$14.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/java-design-patterns/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-design-patterns/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Logical Programs and Data Structures For Beginners" src="images/javalogicalprograms.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -616,11 +661,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/java-logical-programs/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-logical-programs/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 7 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Interview Help" src="images/javainterviewhelp.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -636,11 +682,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/java-interview-help/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-interview-help/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Serverless using AWS Lambda for Java Developers" src="images/serverless_java.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -656,11 +703,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-programming-using-aws-lambda-for-java-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-programming-using-aws-lambda-for-java-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 7 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Kafka fundamentals for java developers" src="images/kafka.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -676,11 +724,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/kafka-fundamentals-for-java-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/kafka-fundamentals-for-java-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="devops">
 <img alt="Helm Kubernetes Packaging Manager for Developers and DevOps" src="images/helm.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -696,11 +745,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/helm-kubernetes-packaging-manager-for-developers-and-devops/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/helm-kubernetes-packaging-manager-for-developers-and-devops/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="devops">
 <img alt="Devops Tools and AWS for Java Microservice Developers" src="images/devopstools.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -716,11 +766,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/devops-tools-and-aws-for-java-microservice-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/devops-tools-and-aws-for-java-microservice-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 20 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="devops">
 <img alt="Maven Crash Course" src="images/maven.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -736,11 +787,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/mavencrashcourse/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/mavencrashcourse/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="devops">
 <img alt="Gradle for java developers" src="images/gradle.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -756,11 +808,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/gradle-for-java-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/gradle-for-java-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="NodeJS made easy for MEAN or MERN Stack" src="images/nodejs.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -776,11 +829,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/nodejs-in-easy-steps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/nodejs-in-easy-steps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 7 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="React in easy steps with Node and Java Backend" src="images/reactjs.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -796,11 +850,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/reactjs-in-easy-steps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/reactjs-in-easy-steps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 9 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="Angular Crash Course with Node and Java Backend" src="images/angular.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -816,11 +871,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/angular-6-crash-course/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/angular-6-crash-course/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 9 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="TYPESCRIPT FOR BEGINNERS" src="images/typescript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -836,11 +892,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/typescript-for-beginners/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/typescript-for-beginners/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="JavaScript Fundamentals6" src="images/javascript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -860,6 +917,7 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-meta"> 5 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="javascript">
 <img alt="Advanced and Object Oriented JavaScript and ES6" src="images/advancedoojscript.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -879,6 +937,7 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-meta"> 5 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="xmlxsd">
 <img alt="XML and XML Schema Definition in Easy Steps" src="images/xml.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -894,11 +953,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/xml-and-xml-schema-definition-in-easy-steps/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/xml-and-xml-schema-definition-in-easy-steps/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="xmlxsd">
 <img alt="XSLT XPATH and XQuery Fundamentals" src="images/xslt.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -914,11 +974,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/xslt-xpath-and-xquery-fundamentals/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/xslt-xpath-and-xquery-fundamentals/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 2 hours • All levels</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Python for beginners" src="images/python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -934,11 +995,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$12.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/python-core-and-advanced/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/python-core-and-advanced/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 16 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Python Logical Programs and Data Structures for beginners" src="images/pythonlogical.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -954,11 +1016,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/python-logical-programs-and-data-structures-for-beginners/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/python-logical-programs-and-data-structures-for-beginners/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Django for Python Developers" src="images/djangopytho.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -974,11 +1037,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/django-for-python-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/django-for-python-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Django Rest Framework" src="images/djangorest.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -994,11 +1058,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/djangorestframework/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/djangorestframework/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 6 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Serverless using AWS Lambda for Python Developers" src="images/serverless_python.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -1014,11 +1079,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$22.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/serverless-using-aws-lambda-for-python-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="python">
 <img alt="Docker for Python Django Developers" src="images/dockerpython.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -1034,11 +1100,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/docker-for-python-django-developers/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/docker-for-python-django-developers/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 4 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="REST APIs using Spring Data REST" src="images/rest.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -1054,11 +1121,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$24.99</span>
 <span style="color: red; font-weight: bold;">$10.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/microservices-rest-apis-using-spring-data-rest/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/microservices-rest-apis-using-spring-data-rest/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="java">
 <img alt="Java Message Service - JMS Fundamentals" src="images/jms.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -1074,11 +1142,12 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-footer">
 <span style="text-decoration: line-through; color: blue;">$19.99</span>
 <span style="color: red; font-weight: bold;">$9.99</span>
-<a class="btn btn-primary" href="https://www.udemy.com/course/java-message-service-jms-fundamentals/?couponCode=JANMID_2026_DEALS" target="_blank">View Course</a>
+<a class="btn btn-primary" href="https://www.udemy.com/course/java-message-service-jms-fundamentals/?couponCode=JANEND_2026_DEALS" target="_blank">View Course</a>
 </div>
 <div class="course-meta"> 5 hours • beginners</div>
 </div>
 </div>
+
 <div class="course-card" data-category="yoga">
 <img alt="Yoga and Meditation For Beginners" src="images/yoga.jpg" style="width:400px; height:200px; object-fit:crop;"/>
 <div class="course-content">
@@ -1098,7 +1167,9 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="course-meta"> 1 hours • beginners</div>
 </div>
 </div>
-</div>
+
+</div> <!-- END SINGLE COURSES GRID -->
+
 <div class="courses-grid">
 <div class="course-stats">
 <div class="stat">
@@ -1119,6 +1190,7 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 </div>
 </div>
 </div>
+
 <div>
 <!-- Media Section -->
 <section class="media" id="media">
@@ -1191,7 +1263,7 @@ at heart, Bharath believes every dream is possible with the right mindset and me
 <div class="footer-content">
 <div class="footer-main">
 <h3>Bharath Thippireddy</h3>
-<p>Empowering 850K+ students worldwide with cutting-edge technology education.</p>
+<p>Empowering 850K+ students worldwide with cutting-edge technology education.</p>
 </div>
 </div>
 <div class="footer-bottom">
